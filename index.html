@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cat API</title>
+</head>
+
+<body>
+
+    <div class="gridContainer">
+        <h1 class="catTitle">Cats</h1>
+
+        <section class="randomSect">
+            <h2 class="randomTitle">Press me for a surprise :)</h2>
+            <button id="randomBtn">Random</button>
+        </section>
+
+        <section class="breedSect">
+            <h2 class="breedTitle">Or choose what you get if you are a control freak :(</h2>
+            <p id="errorMessage"></p>
+            <button id="catBreedBtn">Breed</button>
+            <label for="catBreed"></label>
+            <select name="catBreed" id="catSelect">
+                <option selected value="none">None</option>
+            </select>
+        </section>
+
+        <ul id="listContainer">
+        </ul>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
